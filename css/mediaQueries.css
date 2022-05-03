@@ -1,0 +1,57 @@
+@media screen and (min-width: 750px) {
+
+  /******************** HEADER ********************/
+  .header__title {
+    font-size: 20px;
+  }
+  .header__title span {
+    font-size: 32px;
+  }
+
+}
+
+@media screen and (min-width: 1117px) {
+
+  /******************** HEADER ********************/
+  .header {
+    margin: 70px 40px 70px;
+    max-width: 500px;
+  }
+  .header__title {
+    font-size: 20px;
+  }
+  .header__title span {
+    font-size: 32px;
+  }
+
+  /******************** MAIN ********************/
+  .main {
+    margin-bottom: 50px;
+    max-width: 1117px;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+  }
+  .main__cards {
+    width: 350px;
+    height: 250px;
+    position: relative;
+  }
+  /*********** Cards ***********/
+  .main__supervisor {
+    top: 150px;
+  }
+  .main__team-builder {
+    margin: 0 auto;
+    bottom: 265px;
+  }
+  .main__karma {
+    margin: 0 auto;
+    bottom: 260px;
+  }
+  .main__calculator {
+    bottom: 675px;
+    left: 765px;
+  }
+
+}

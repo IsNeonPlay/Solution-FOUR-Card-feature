@@ -1,0 +1,100 @@
+/******************** GENERAL STYLES ********************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  /*** Font 👇 ***/
+  --Font: 'Poppins', sans-serif;
+  /*** General Colors 👇 ***/
+  --BG-Color: hsl(0, 0%, 98%);
+  --Titles-Color: hsl(234, 12%, 34%);
+  --Paragraphs-Color: hsl(229, 6%, 66%);
+  /*** Decoration Cards 👇 ***/
+  --BG-Cards: white;
+  --Card-1: hsl(180, 62%, 55%);
+  --Card-2: hsl(0, 78%, 62%);
+  --Card-3: hsl(34, 97%, 64%);
+  --Card-4: hsl(212, 86%, 64%);
+  /*** Border Cards 👇 ***/
+  --Border-Cards: .5em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--BG-Color);
+  font-family: var(--Font);
+  font-size: 15px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/******************** HEADER ********************/
+.header {
+  margin: 95px 40px 70px;
+  max-width: 465px;
+  color: var(--Paragraphs-Color);
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+.header__title span {
+  color: var(--Titles-Color);
+  font-size: 24px;
+}
+/******************** MAIN ********************/
+.main {
+  margin-bottom: 95px;
+  max-width: 1117px;
+  width: 315px;
+  display: grid;
+  gap: 25px;
+}
+.main__cards {
+  padding: 25px 30px;
+  background-color: var(--BG-Cards);
+  border-top: 4px solid;
+  border-radius: var(--Border-Cards);
+  box-shadow: 0 15px 20px -5px hsla(234, 12%, 34%, 0.2);
+}
+.main__cards-title {
+  color: var(--Titles-Color);
+  font-size: 14px;
+}
+.main__cards-paragraph {
+  color: var(--Paragraphs-Color);
+  font-size: 13px;
+}
+.main__cards-icon {
+  margin-top: 40px;
+  width: 100%;
+}
+.icon-card {
+  float: right;
+}
+/*********** Decoration Cards ***********/
+.main__supervisor {
+  border-color: var(--Card-1);
+}
+
+.main__team-builder {
+  border-color: var(--Card-2);
+}
+
+.main__karma {
+  border-color: var(--Card-3);
+}
+
+.main__calculator {
+  border-color: var(--Card-4);
+}
+/******************** FOOTER ********************/
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
