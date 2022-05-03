@@ -7,7 +7,7 @@ Front-end Mentor basic challenge solved By IsNeonPlay
 
 Último reto básico de Front-end Mentor resuelto por IsNeonPlay. Creí que este último reto básico se me iba a complicar, pero la verdad es que fue bastante sencillo y no me tomó mucho tiempo terminarlo.
 
-Lo único que hay que recalcar es que posicionélas tarjetas con un `position: relative;` y cada una con un `top`, `bottom`, `left` y `right`.
+Lo único que hay que recalcar es que posicioné las tarjetas con un `position: relative;` y cada una con un `top`, `bottom`, `left` y `right`.
 
 Para lo único que use `grid` fue para hacer el `gap` esto para separar algunos contenedores.
 
